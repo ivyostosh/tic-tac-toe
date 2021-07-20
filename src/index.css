@@ -1,6 +1,6 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin: 50px !important;
   }
   
   ol, ul {
@@ -34,6 +34,11 @@ body {
   
   .square:focus {
     outline: none;
+  }
+
+  .square:hover {
+    background-color: blue;
+    color: white;
   }
   
   .kbd-navigation .square:focus {
